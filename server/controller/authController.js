@@ -1,5 +1,5 @@
 const registration = (req, res) => {
-    res.send("Registration Controller");
-  }
+  res.send("Registration Controller");
+};
 
-module.exports = registration;
+module.exports = { registration, };
