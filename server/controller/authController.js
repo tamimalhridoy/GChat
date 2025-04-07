@@ -10,6 +10,9 @@ const user = new userSchema({
   password,
   avatar,
 });
+
 user.save();
+
+
 
 module.exports = registration;
