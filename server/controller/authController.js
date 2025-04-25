@@ -13,4 +13,4 @@ const user = new userSchema({
 
 user.save();
 
-module.exports = registration;
+module.exports = {registration};
