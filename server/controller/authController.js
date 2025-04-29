@@ -1,6 +1,5 @@
 const userSchema = require("../models/userSchema");
 
-
 const registration = (req, res) => {
   const { fullName, email, password, avatar } = req.body;
 };
@@ -12,6 +11,6 @@ const user = new userSchema({
   avatar,
 });
 
-user.
+user.save();
 
 module.exports = { registration };
