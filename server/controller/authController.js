@@ -11,8 +11,11 @@ const user = new userSchema({
   avatar,
 });
 
-user.save();
+// user.save();
 
-// const user = new userSchema({});
+const user = new userSchema({
+
+
+});
 
 module.exports = registration;
