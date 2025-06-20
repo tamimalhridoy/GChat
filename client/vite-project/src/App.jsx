@@ -2,7 +2,7 @@ import {
   createRoutesFromElements,
   createBrowserRouter,
   Route,
-  // RouterProvider,
+  RouterProvider,
 } from "react-router-dom";
 
 const App = () => {
